@@ -1,5 +1,5 @@
-import { createSlice,nanoid } from "@reduxjs/toolkit";
-import authService from "../appwrite/auth";
+import { createSlice } from "@reduxjs/toolkit";
+
 
 const initialState = {
     status: false,
